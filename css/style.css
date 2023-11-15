@@ -1,0 +1,43 @@
+:root {
+  --margin-side: max(1rem, calc((100vw - 1000px) / 2))
+}
+
+nav {
+  padding-inline: var(--margin-side);
+}
+
+.columns {
+  padding-block: 4rem;
+  padding-inline: var(--margin-side);
+}
+
+.button-zebra {
+  background-color: #000000;
+}
+
+.button-elephant {
+  background-color: rgb(75, 30, 9);
+}
+
+.button-giraffe {
+  background-color: rgb(219, 94, 36);  
+}
+
+.button-zebra,
+.button-zebra:hover,
+.button-elephant,
+.button-elephant:hover,
+.button-giraffe,
+.button-giraffe:hover {
+  color: #fff;
+}
+
+body {
+  background-color: #ececec;
+}
+
+.signup-button,
+.signup-button:hover {
+  background-color: #000000;
+  color: #fff;
+}
